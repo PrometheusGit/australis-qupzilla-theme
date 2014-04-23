@@ -11,39 +11,6 @@
 }
 
 /*MainWindow*/
-#mainwindow-menubar
-{
-    background-image:url(images/transp.png);
-    border:none;
-}
-
-#mainwindow-menubar:item
-{
-    color: black;
-    spacing: 5px;
-    padding: 2px 6px;
-    background: transparent;
-}
-
-#mainwindow-menubar::item:pressed
-{
-    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #a1c0e6, stop:1 #86abd9);
-    border: 1px solid #4b6e99;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom: none;
-}
-
-#mainwindow-statusbar
-{
-    background-color: #e4edf9;
-}
-
-#mainwindow QToolBar
-{
-    background-image:url(images/transp.png);
-    border:none;
-}
 
 #statusbar-ip-label
 {
